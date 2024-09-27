@@ -1,0 +1,36 @@
+COHORT’S Task
+
+1. list = [1, [2, [3,4,5,6],[7],[8, [9]]]]
+*Calculate its dimension
+*Convert it to 1D
+
+2. Write program for
+*output :[1, [3,6],[7],[8, [9]]] 
+
+3. Reverse the order of the elements in the provided list 
+
+4. list = [1, [2, [3, 4, 5, 6], [7], [8, [9]]]]
+newlist = [
+   list[0],                              
+   list[1][0][1],                        
+   list[1][1][0], list[1][1][5]],
+   list[1][3][0],                        
+   list[1][4][1][0]                      
+ ]
+print("Output:", newlist)
+required output : [1, 2, [3, 6], 8, 9]
+Find bugs and debug it
+
+5 .students = [
+   ["Alice", [85, 90, 78], 15], # Name, Grades, Attendance
+   ["Bob", [70, 80, 68], 10],
+   ["Charlie", [95, 92, 88], 20],
+   ["David", [60, 75, 70], 5],
+   ["Eva", [100, 90, 95], 18]
+ ]
+ 
+ a. Extract the names of the students into a new list.
+ b. Calculate the average grade for each student and store it in a new list, rounded to two decimal places.
+ c. Determine each student’s attendance status (“Good” for ≥ 15 days, “Poor” for < 15 days) and store this in a new list.
+ d. Create a new list of dictionaries containing each student’s name, average grade, and attendance status.
+ e. Filter the names of students with an average grade of 80 or above into a new list.
